@@ -7,13 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HelloWorldAJS';
-  imgUrl;
-  url;
+  imgUrl="../assets/fav.jpg";
+  url="https://www.bridgelabz.com";
+  userName: string = "";
 
   ngOnInit(): void {
     this.title = "Hello From BridgeLabz"
-    this.imgUrl="../assets/fav.jpg";
-    this.url="https://www.bridgelabz.com";
   }
 
   onClick($event){
